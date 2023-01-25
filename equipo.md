@@ -1,7 +1,7 @@
 (equipo)=
 # **4**. Equipo de fotolitografía _maskless_
 
-La tecnología de _SmartPrint_ ha sido especialmente diseñada para proyectar patrones con resolución micrométrica. Las figuras [6](smart) - [9](dose) resumen las características principales del equipo {cite}`smartprintdata`. KAIXO!!
+La tecnología de _SmartPrint_ ha sido especialmente diseñada para proyectar patrones con resolución micrométrica. Las figuras [6](smart) - [9](dose) resumen las características principales del equipo {cite}`smartprintdata`. 
 
 ```{figure} machine.PNG
 ---
