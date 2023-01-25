@@ -1,0 +1,648 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>6. Primera fotolitografía: SENSOR &#8212; FOTOLITOGRAFÍA SIN MÁSCARAS</title>
+    
+  <link href="_static/css/theme.css" rel="stylesheet">
+  <link href="_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
+
+    
+  <link rel="stylesheet"
+    href="_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+
+    
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="_static/sphinx-book-theme.css?digest=c3fdc42140077d1ad13ad2f1588a4309" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
+    <link rel="stylesheet" type="text/css" href="_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    
+  <link rel="preload" as="script" href="_static/js/index.be7d3bbb2ef33a8344ce.js">
+
+    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/clipboard.min.js"></script>
+    <script src="_static/copybutton.js"></script>
+    <script >let toggleHintShow = 'Click to show';</script>
+    <script >let toggleHintHide = 'Click to hide';</script>
+    <script >let toggleOpenOnPrint = 'true';</script>
+    <script src="_static/togglebutton.js"></script>
+    <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="_static/sphinx-book-theme.d59cb220de22ca1c485ebbdc042f0030.js"></script>
+    <script >const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
+const thebe_selector = ".thebe,.cell"
+const thebe_selector_input = "pre"
+const thebe_selector_output = ".output, .cell_output"
+</script>
+    <script async="async" src="_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/x-mathjax-config">MathJax.Hub.Config({"tex2jax": {"processClass": "tex2jax_process|mathjax_process|math|output_area"}})</script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="7. Segunda fotolitografía: CONTACTOS DEL SENSOR" href="capa2_contacts.html" />
+    <link rel="prev" title="5. Procedimiento general de fotolitografía" href="procedimiento.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="None">
+    
+
+    <!-- Google Analytics -->
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    
+        <div class="navbar-brand-box">
+    <a class="navbar-brand text-wrap" href="index.html">
+      
+        <!-- `logo` is deprecated in Sphinx 4.0, so remove this when we stop supporting 3 -->
+        
+      
+      
+      <img src="_static/smartprint.jpg" class="logo" alt="logo">
+      
+      
+      <h1 class="site-logo" id="site-title">FOTOLITOGRAFÍA SIN MÁSCARAS</h1>
+      
+    </a>
+</div><form class="bd-search d-flex align-items-center" action="search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item active">
+        <ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="intro.html">
+   1. Introducción y objetivos
+  </a>
+ </li>
+</ul>
+<ul class="current nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="sala.html">
+   <strong>
+    2
+   </strong>
+   . La sala blanca
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="dise%C3%B1o.html">
+   <strong>
+    3
+   </strong>
+   . Diseño de los patrones
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="equipo.html">
+   <strong>
+    4
+   </strong>
+   . Equipo de fotolitografía
+   <em>
+    maskless
+   </em>
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="procedimiento.html">
+   <strong>
+    5
+   </strong>
+   . Procedimiento general de fotolitografía
+  </a>
+ </li>
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
+   <strong>
+    6
+   </strong>
+   .
+   <strong>
+    Primera fotolitografía
+   </strong>
+   : SENSOR
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="capa2_contacts.html">
+   <strong>
+    7
+   </strong>
+   .
+   <strong>
+    Segunda fotolitografía
+   </strong>
+   : CONTACTOS DEL SENSOR
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="extcontacts.html">
+   <strong>
+    8
+   </strong>
+   .
+   <strong>
+    Tercera fotolitografía
+   </strong>
+   : CONTACTOS EXTERNOS
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="referencias.html">
+   Referencias
+  </a>
+ </li>
+</ul>
+
+    </div>
+</nav> <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+</div>
+
+</div>
+
+
+          
+
+
+          
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="topbar container-xl fixed-top">
+    <div class="topbar-contents row">
+        <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show"></div>
+        <div class="col pl-md-4 topbar-main">
+            
+            <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+                data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+                aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
+                title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-arrow-left"></i>
+                <i class="fas fa-arrow-up"></i>
+            </button>
+            
+            
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="_sources/capa1_sensors.md"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.md</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+                onclick="printPdf(this)" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+</div>
+
+            <!-- Source interaction buttons -->
+
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
+    <div class="dropdown-buttons sourcebuttons">
+        <a class="repository-button"
+            href="https://github.com/executablebooks/jupyter-book"><button type="button" class="btn btn-secondary topbarbtn"
+                data-toggle="tooltip" data-placement="left" title="Source repository"><i
+                    class="fab fa-github"></i>repository</button></a>
+        <a class="issues-button"
+            href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2Fcapa1_sensors.html&body=Your%20issue%20content%20here."><button
+                type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
+                title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
+        
+    </div>
+</div>
+
+            <!-- Full screen (wrap in <a> to have style consistency -->
+
+<a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+        data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
+        title="Fullscreen mode"><i
+            class="fas fa-expand"></i></button></a>
+
+            <!-- Launch buttons -->
+
+        </div>
+
+        <!-- Table of contents -->
+        <div class="d-none d-md-block col-md-2 bd-toc show noprint">
+            
+            <div class="tocsection onthispage pt-5 pb-3">
+                <i class="fas fa-list"></i> Contents
+            </div>
+            <nav id="bd-toc-nav" aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#limpieza-del-sustrato">
+   <strong>
+    6.1
+   </strong>
+   Limpieza del sustrato
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#spin-coating-deposicion-de-resina">
+   <strong>
+    6.2
+   </strong>
+   <em>
+    Spin coating
+   </em>
+   : deposición de resina
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#exposicion-no-1">
+   <strong>
+    6.3
+   </strong>
+   Exposición nº 1
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#revelado-y-analisis-de-los-resultados">
+   <strong>
+    6.4
+   </strong>
+   Revelado y análisis de los resultados
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#sputtering-de-permalloy-y-lift-off">
+   <strong>
+    6.5
+   </strong>
+   <em>
+    Sputtering
+   </em>
+   de permalloy y
+   <em>
+    lift off
+   </em>
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#resultados-tras-deposicion-de-permalloy">
+   <strong>
+    6.6
+   </strong>
+   Resultados tras deposición de permalloy
+  </a>
+ </li>
+</ul>
+
+            </nav>
+        </div>
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+            <!-- Table of contents that is only displayed when printing the page -->
+            <div id="jb-print-docs-body" class="onlyprint">
+                <h1>6. Primera fotolitografía: SENSOR</h1>
+                <!-- Table of contents -->
+                <div id="print-main-content">
+                    <div id="jb-print-toc">
+                        
+                        <div>
+                            <h2> Contents </h2>
+                        </div>
+                        <nav aria-label="Page">
+                            <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#limpieza-del-sustrato">
+   <strong>
+    6.1
+   </strong>
+   Limpieza del sustrato
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#spin-coating-deposicion-de-resina">
+   <strong>
+    6.2
+   </strong>
+   <em>
+    Spin coating
+   </em>
+   : deposición de resina
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#exposicion-no-1">
+   <strong>
+    6.3
+   </strong>
+   Exposición nº 1
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#revelado-y-analisis-de-los-resultados">
+   <strong>
+    6.4
+   </strong>
+   Revelado y análisis de los resultados
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#sputtering-de-permalloy-y-lift-off">
+   <strong>
+    6.5
+   </strong>
+   <em>
+    Sputtering
+   </em>
+   de permalloy y
+   <em>
+    lift off
+   </em>
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#resultados-tras-deposicion-de-permalloy">
+   <strong>
+    6.6
+   </strong>
+   Resultados tras deposición de permalloy
+  </a>
+ </li>
+</ul>
+
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            
+              <div>
+                
+  <div class="tex2jax_ignore mathjax_ignore section" id="primera-fotolitografia-sensor">
+<span id="thesensors"></span><h1><strong>6</strong>. <strong>Primera fotolitografía</strong>: SENSOR<a class="headerlink" href="#primera-fotolitografia-sensor" title="Permalink to this headline">¶</a></h1>
+<p>En esta sección, se explicará el primer proceso de fotolitografía, mediante la cual se reproducirán los patrones de la figura <a class="reference internal" href="dise%C3%B1o.html#dessensors"><span class="std std-ref">3</span></a> en un sustrato de <strong>vidrio</strong>, de las siguientes dimensiones: <span class="math notranslate nohighlight">\((24 \times 40 \times 0,15) \; \mathrm{mm}\)</span>.</p>
+<div class="section" id="limpieza-del-sustrato">
+<span id="clean1"></span><h2><strong>6.1</strong> Limpieza del sustrato<a class="headerlink" href="#limpieza-del-sustrato" title="Permalink to this headline">¶</a></h2>
+<p>Primeramente, el sustrato se debe limpiar, para eliminar posibles contaminantes y agentes orgánicos. De esta forma, se propiciará la adhesión de la resina. Para comenzar, el sustrato será sometido a un <strong>baño de acetona</strong> que eliminará contaminantes orgánicos. Se debe verter la suficiente cantidad al recipiente correspondiente, de tal manera que el vidrio quede completamente sumergido. El recipiente se colocará en la máquina de ultrasonidos (figura <a class="reference internal" href="#aceultra"><span class="std std-ref">11</span></a>), y se mantendrá ahí durante dos minutos. Una vez que haya transcurrido ese tiempo, el sustrato se sacará del envase, sosteniéndolo cuidadosamente con las pinzas por un extremo. Con la pistola de nitrógeno se aplicarán ráfagas discontinuas con una pequeña inclinación respecto a su plano paralelo, para así eliminar los restos de acetona. Las pinzas también deben quedar limpias.</p>
+<div class="admonition-nota admonition">
+<p class="admonition-title">Nota</p>
+<p>Esta máquina contiene un generador de ondas de sonido de altas frecuencias. La diferencia entre las presiones de los máximos y mínimos de estas ondas de compresión produce burbujas en el líquido, las cuales fomentan la remoción de contaminantes y partículas <span id="id1">[<a class="reference internal" href="referencias.html#id6" title="Science Direct. Ultrasonic cleaning. URL: https://www.sciencedirect.com/topics/chemistry/ultrasonic-cleaning (visited on 2022-06-20).">10</a>]</span>.</p>
+</div>
+<div class="figure align-default" id="aceultra">
+<a class="reference internal image-reference" href="_images/aceultrasonidos.jpg"><img alt="_images/aceultrasonidos.jpg" src="_images/aceultrasonidos.jpg" style="height: 250px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 11 </span><span class="caption-text">El recipiente de acetona con el sustrato en el baño de ultrasonidos.</span><a class="headerlink" href="#aceultra" title="Permalink to this image">¶</a></p>
+</div>
+<p>Después, se procederá al <strong>baño de isopropanol</strong> para eliminar los residuos de acetona, en el cual se deberán seguir los pasos explicados anteriormente.</p>
+</div>
+<div class="section" id="spin-coating-deposicion-de-resina">
+<span id="id2"></span><h2><strong>6.2</strong> <em>Spin coating</em>: deposición de resina<a class="headerlink" href="#spin-coating-deposicion-de-resina" title="Permalink to this headline">¶</a></h2>
+<p>Al finalizar la limpieza, el sustrato se colocará bien centrado en la centrifugadora, también denominada <em>spinner</em>, donde quedará sujeta mediante vacío (Figura <a class="reference internal" href="#spinner"><span class="std std-ref">12</span></a>). Primero, se cubrirá gran parte de su superficie (<span class="math notranslate nohighlight">\(\approx 80\%\)</span>) con un <strong>promotor de adherencia</strong> que consiste en una solución de HMDS (<em>hexametildisilazano</em>) <span id="id3">[<a class="reference internal" href="referencias.html#id3" title="AllResist GmbH. Ar 300-80 hmds adhesion promoter. URL: https://www.allresist.com/wp-content/uploads/sites/2/2021/02/Allresist_Product-information_Adhesions-Promoter_AR-300-80new_HMDS_English_web.pdf (visited on 2022-06-20).">11</a>]</span>, el cual fortalecerá la resistencia de la adhesión de la resina al vidrio. Por otro lado, cabe mencionar que una humedad muy elevada (<span class="math notranslate nohighlight">\(&gt;60\%\)</span>) puede debilitar la adhesión considerablemente.</p>
+<div class="figure align-default" id="spinner">
+<a class="reference internal image-reference" href="_images/obleaspinner.jpg"><img alt="_images/obleaspinner.jpg" src="_images/obleaspinner.jpg" style="height: 250px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 12 </span><span class="caption-text">El vidrio queda sujeto al soporte del <em>spinner</em> mediante vacío. También recibe un flujo de aire comprimido (<span class="math notranslate nohighlight">\(\text{N}_2\)</span>) para reducir la humedad. Éstos son esenciales para la inicialización y el desarrollo completo de los programas de centrifugado.</span><a class="headerlink" href="#spinner" title="Permalink to this image">¶</a></p>
+</div>
+<p>El usuario cerrará la cubierta y se asegurará de que el vacío se está realizando adecuadamente (la pantalla no debe parpadear). Después, seleccionará el programa E, por lo que el sustrato girará a <span class="math notranslate nohighlight">\(4000 \; \text{rpm}\)</span> durante <span class="math notranslate nohighlight">\(30  \; \text{s}\)</span>. Es importante percatarse de que dicho programa consiste de siete fases en total: tres de aceleración, la principal y tres de deceleración. Es decir, la velocidad aumenta y decrece progresivamente (figura <a class="reference internal" href="#spgraph"><span class="std std-ref">13</span></a>). Así, se creará una capa de aproximadamente <span class="math notranslate nohighlight">\(15 \; \mathrm{nm}\)</span> de espesor. Cuando el HMDS se haya distribuido uniformemente, se depositará la <strong>resina fotosensible</strong> (con otra pipeta). El <em>photoresist</em> que se emplea es positivo <span id="id4">[<a class="reference internal" href="referencias.html#id2" title="AllResist GmbH. Ar-p 5350 positive photoresist. URL: https://www.allresist.com/portfolio-item/photoresist-ar-p-5350/ (visited on 2022-06-20).">12</a>]</span>. Es conveniente almacenar el bote seguidamente tras su uso, para así evitar el deterioro de la resina debido a la humedad y otros factores. En este caso se seleccionará programa S, el cual hará girar al sustrato a <span class="math notranslate nohighlight">\(4000 \; \text{rpm}\)</span> durante <span class="math notranslate nohighlight">\(60  \; \text{s}\)</span>, adquiriendo de esta forma un espesor de <span class="math notranslate nohighlight">\(1 \; \mu\text{m}\)</span>, según la hoja de especificaciones.</p>
+<div class="figure align-default" id="spgraph">
+<a class="reference internal image-reference" href="_images/spinnergraph.PNG"><img alt="_images/spinnergraph.PNG" src="_images/spinnergraph.PNG" style="height: 300px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 13 </span><span class="caption-text">Fases de aceleración, principal y deceleración del programa S del spinner, empleado en la deposición de la resina.</span><a class="headerlink" href="#spgraph" title="Permalink to this image">¶</a></p>
+</div>
+</div>
+<div class="section" id="exposicion-no-1">
+<span id="exp1"></span><h2><strong>6.3</strong> Exposición nº 1<a class="headerlink" href="#exposicion-no-1" title="Permalink to this headline">¶</a></h2>
+<p>A continuación, el sustrato se posicionará en el soporte de la máquina. Se debe procurar que los bordes queden bien alineados (figura <a class="reference internal" href="#soporte"><span class="std std-ref">14</span></a>). Hecho esto, los pasos subsiguientes se llevarán a cabo mediante el programa <em>SFTPrint</em>. La máscara del sensor se transferirá siguiendo el formato de <em>stitching</em> (figura <a class="reference internal" href="#stitch"><span class="std std-ref">15</span></a>), con el objeto de aumentar la resolución.
+En la pantalla principal (sección <span class="math notranslate nohighlight">\((i)\)</span> de la figura <a class="reference internal" href="equipo.html#smartgen"><span class="std std-ref">7</span></a>) se seleccionará el objetivo de mayor aumento (<span class="math notranslate nohighlight">\(\times 10\)</span>) y sustrato de vidrio. Cabe destacar que las dimensiones del sensor a fabricar se encuentran en el límite de la resolución de la cámara <span class="math notranslate nohighlight">\((2\; \mu\mathrm{m})\)</span>.</p>
+<div class="figure align-default" id="soporte">
+<a class="reference internal image-reference" href="_images/objective.jpg"><img alt="_images/objective.jpg" src="_images/objective.jpg" style="height: 250px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 14 </span><span class="caption-text">El sustrato en el soporte, debajo del objetivo.</span><a class="headerlink" href="#soporte" title="Permalink to this image">¶</a></p>
+</div>
+<div class="figure align-default" id="stitch">
+<a class="reference internal image-reference" href="_images/sensorsslicinggrid.PNG"><img alt="_images/sensorsslicinggrid.PNG" src="_images/sensorsslicinggrid.PNG" style="height: 400px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 15 </span><span class="caption-text"><em>Stitching Mode</em> de la primera capa. El diseño del sensor se repartirá en seis celdas. De esta forma, la exposición se realizará en seis pasos, siguiendo las flechas rojas.</span><a class="headerlink" href="#stitch" title="Permalink to this image">¶</a></p>
+</div>
+<p>Tras finalizar la configuración inicial, se procederá a la selección de la zona de interés (figura <a class="reference internal" href="#focusdraw"><span class="std std-ref">16</span></a>). Ésta no ha de quedar muy cerca de los bordes, dado que existiría el riesgo de dañar los diseños al sujetar el vidrio con las pinzas.</p>
+<div class="figure align-default" id="focusdraw">
+<a class="reference internal image-reference" href="_images/focus.PNG"><img alt="_images/focus.PNG" src="_images/focus.PNG" style="height: 200px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 16 </span><span class="caption-text">Puntos de enfoque en el sustrato.</span><a class="headerlink" href="#focusdraw" title="Permalink to this image">¶</a></p>
+</div>
+<p>Como se va a llevar a cabo un test de dosis, se realizarán varias exposiciones, una tras otra. Por ello, el área escogida deberá ser lo suficientemente extensa. Después, se corregirá el <strong>enfoque</strong>. Este paso es vital, pues de ello depende en gran medida que la imagen sea transferida nítidamente al sustrato. Además, como se ha mencionado previamente, las dimensiones del borde corto de cada componente del sensor coinciden con el límite de la resolución de la cámara de la máquina. Por ende, se deberá prestar especial atención a este paso.
+Al pulsar en <em>FOCUS MODE</em> (sección <span class="math notranslate nohighlight">\((ii)\)</span> de la figura <a class="reference internal" href="equipo.html#smartgen"><span class="std std-ref">7</span></a>), en la pantalla de la cámara aparecerá una red con letras y números. Se guardarán las coordenadas del punto <span class="math notranslate nohighlight">\(P_{1}\)</span>, y en él se ajustará la posición del eje <span class="math notranslate nohighlight">\(z\)</span>, haciendo mover verticalmente el motor del soporte mediante las flechas. Seguidamente, moviendo el soporte en horizontal, se fijará el punto <span class="math notranslate nohighlight">\(P_{2}\)</span>, ajustando en él el eje <span class="math notranslate nohighlight">\(x\)</span> manualmente. Este proceso se repetirá varias veces, hasta asegurarse de que el enfoque es correcto en la totalidad de la zona (figura <a class="reference internal" href="#goodfocus"><span class="std std-ref">17</span></a>b).</p>
+<div class="figure align-default" id="goodfocus">
+<a class="reference internal image-reference" href="_images/goodbadfocus.PNG"><img alt="_images/goodbadfocus.PNG" src="_images/goodbadfocus.PNG" style="height: 400px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 17 </span><span class="caption-text">Red de enfoque a vista de cámara.</span><a class="headerlink" href="#goodfocus" title="Permalink to this image">¶</a></p>
+</div>
+<p>Una vez arreglado el enfoque, se procederá a la propia exposición. Mediante la opción <em>dose test</em>, se <strong>determinará la dosis</strong> adecuada; es decir, el tiempo óptimo de exposición para garantizar la correcta transferencia de los patrones a la resina. Para ello, se fijará el soporte en el punto <span class="math notranslate nohighlight">\(P_{1}\)</span>, y se especificarán los siguientes puntos (ver figura <a class="reference internal" href="equipo.html#dose"><span class="std std-ref">9</span></a>):</p>
+<blockquote>
+<div><p><strong>Número de columnas y filas</strong>: <span class="math notranslate nohighlight">\(3 \times 1\)</span></p>
+</div></blockquote>
+<blockquote>
+<div><p><strong>Distancia horizontal entre exposiciones</strong>: <span class="math notranslate nohighlight">\(\Delta x = 2,5 \; \text{mm}\)</span></p>
+</div></blockquote>
+<blockquote>
+<div><p><strong>Tiempo inicial</strong>: <span class="math notranslate nohighlight">\(1,5 \; \text{s}\)</span></p>
+</div></blockquote>
+<blockquote>
+<div><p><strong>Aumento de tiempo</strong>: <span class="math notranslate nohighlight">\(0,6 \; \text{s}\)</span></p>
+</div></blockquote>
+<p>Observando las especificaciones introducidas, se efectuarán tres exposiciones en horizontal. Como la imagen entera de la figura <a class="reference internal" href="dise%C3%B1o.html#descrosses"><span class="std std-ref">5</span></a> ocupa una longitud de <span class="math notranslate nohighlight">\(2,1 \; \text{mm}\)</span>, se dejará un espacio de <span class="math notranslate nohighlight">\(2,5 \; \text{mm}\)</span> entre exposiciones. Los tiempos de exposición serán los siguientes:</p>
+<div class="math notranslate nohighlight">
+\[1,5 \; \mathrm{s} \; \rightarrow \; 2,1 \; \mathrm{s} \; \rightarrow \; 2,7 \; \mathrm{s} \;.\]</div>
+<div class="admonition-nota admonition">
+<p class="admonition-title">Nota</p>
+<p>Los datos corresponden a la sesión del 28 de febrero de 2022. En sesiones posteriores se han requerido mayores tiempos de exposición para obtener resultados deseables. Ver sección … .</p>
+</div>
+<p>Antes de comenzar, el usuario deberá colocarse las gafas protectoras, y no deberá quitárselas hasta la culminación del proceso. Además, deberá retirar el filtro protector de luz azul de la máquina. Mientras dura la exposición, observará los resultados a vista de cámara en la pantalla del programa. Al finalizar, volverá a colocar el filtro.</p>
+</div>
+<div class="section" id="revelado-y-analisis-de-los-resultados">
+<span id="rev1"></span><h2><strong>6.4</strong> Revelado y análisis de los resultados<a class="headerlink" href="#revelado-y-analisis-de-los-resultados" title="Permalink to this headline">¶</a></h2>
+<p>Se procederá al último paso en la sala blanca. En el recipiente correspondiente, se preparará la solución de revelado, mediante el revelador AR 300-35 <span id="id5">[<a class="reference internal" href="referencias.html#id4" title="AllResist GmbH. Ar 300-35 developer. URL: https://www.allresist.com/portfolio-item/developer-ar-300-35/ (visited on 2022-06-20).">13</a>]</span> y agua desionizada, siguiendo la proporción <span class="math notranslate nohighlight">\(2:1\)</span>; es decir, dos partes de agua <span class="math notranslate nohighlight">\((50 \; \text{ml})\)</span> por cada una de revelador <span class="math notranslate nohighlight">\((25 \; \text{ml})\)</span>. El sustrato se mantendrá sumergido durante <span class="math notranslate nohighlight">\(90 \; \text{s}\)</span>. Se le aplicarán movimientos transversales, con el objeto de propiciar la penetración del revelador en la resina. Al transcurrir el periodo de tiempo, el sustrato se meterá en agua para detener la reacción. Después, se verterá agua en abundancia en la superficie incidida, para así eliminar el revelador residual. Tras eliminar los restos con <span class="math notranslate nohighlight">\(\text{N}_{2}\)</span>, se observarán los resultados por medio del microscopio de la alineadora (figura <a class="reference internal" href="#crossesexp"><span class="std std-ref">18</span></a>).</p>
+<div class="figure align-default" id="crossesexp">
+<a class="reference internal image-reference" href="_images/res1.PNG"><img alt="_images/res1.PNG" src="_images/res1.PNG" style="height: 250px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 18 </span><span class="caption-text">Cruz nº 2 de alineación tras la primera exposición.</span><a class="headerlink" href="#crossesexp" title="Permalink to this image">¶</a></p>
+</div>
+<div class="admonition-nota admonition">
+<p class="admonition-title">Nota</p>
+<p>No se han incluido imágenes correspondientes a los patrones del sensor tras el revelado, debido a su reducido tamaño. La cámara de la alineadora de la sala blanca (figura <a class="reference internal" href="sala.html#cleanroom"><span class="std std-ref">2</span></a>(d)) no permite tomar fotos con la suficiente resolución y calidad.</p>
+</div>
+<p>En figura <a class="reference internal" href="#crossesexp"><span class="std std-ref">18</span></a>(a) se puede apreciar claramente que la resina expuesta por la luz ultravioleta no ha sido adecuadamente disuelta y extraída por el revelador, puesto que su interior muestra una tonalidad muy oscura, la cual va disminuyendo en las figuras adyacentes. Esto no es aceptable, pues impediría la correcta deposición del material. Solamente deben quedar marcados los bordes de los patrones. El fenómeno mencionado se puede deber a varios factores:</p>
+<dl class="simple myst">
+<dt><em>Un recocido insuficiente</em></dt><dd><p>Este factor se descarta, puesto que otras cruces del mismo sustrato han salido claramente definidas.</p>
+</dd>
+<dt><em>Tiempo insuficiente de revelado</em></dt><dd><p>En otros sustratos con <span class="math notranslate nohighlight">\(t_{\text{rev}}=30 \; \text{s}\)</span>  y <span class="math notranslate nohighlight">\(60 \; \text{s}\)</span>, la resina no ha sido debidamente disuelta. Se ha concluido que el tiempo adecuado es de <span class="math notranslate nohighlight">\(90 \; \mathrm{s}\)</span>.</p>
+</dd>
+<dt>Tiempo insuficiente de exposición</dt><dd><p>En este caso, éste es el factor causante. El tiempo de revelado es el adecuado: 90 s. Además, se puede observar claramente que, a medida que <span class="math notranslate nohighlight">\(t_{\mathrm{exp}}\)</span> aumenta, la tonalidad oscura disminuye considerablemente.</p>
+</dd>
+</dl>
+<p>Teniendo en cuenta que el único resultado permisible es el de la figura <a class="reference internal" href="#crossesexp"><span class="std std-ref">18</span></a>(c), se concluye que las <strong>dosis adecuadas</strong> de <strong>exposición</strong> y de <strong>revelado</strong> para la <strong>primera fotolitografía</strong> son las siguientes:</p>
+<div class="math notranslate nohighlight">
+\[\boxed{t_{\text{exp}} = 2,7 \; \mathrm{s} \; ; \; t_{\text{rev}} = 90 \; \mathrm{s}} \; .\]</div>
+<p>En sesiones subsiguientes, se prepararon dos muestras con la dosis adecuada para así proceder a la deposición del permalloy.</p>
+</div>
+<div class="section" id="sputtering-de-permalloy-y-lift-off">
+<span id="id6"></span><h2><strong>6.5</strong> <em>Sputtering</em> de permalloy y <em>lift off</em><a class="headerlink" href="#sputtering-de-permalloy-y-lift-off" title="Permalink to this headline">¶</a></h2>
+<p>La técnica denominada <em>sputtering</em> es ampliamente empleada para la creación de películas delgadas <span id="id7">[<a class="reference internal" href="referencias.html#id14" title="Tesis de E. Fernández. Thin-film MagnetoImpedance micro-structures for sensing applications. Dep. Electricidad y Electrónica, ZTF/FCT, UPV/EHU, pages 16–19, 2013.">14</a>, <a class="reference internal" href="referencias.html#id8" title="Science Direct. Sputter deposition. URL: https://www.sciencedirect.com/topics/materials-science/sputter-deposition (visited on 2022-06-20).">15</a>]</span>.</p>
+<div class="figure align-default" id="sput">
+<a class="reference internal image-reference" href="_images/sputtering_scheme.PNG"><img alt="_images/sputtering_scheme.PNG" src="_images/sputtering_scheme.PNG" style="height: 400px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 19 </span><span class="caption-text">Proceso esquematizado del <em>sputtering</em> magnetrón. Los iones de argón impactan contra el blanco de permalloy, extrayendo átomos y creando así una fina capa en el sustrato. El campo magnético aplicado confina los iones a la región del blanco, lo cual incrementa el número de colisiones, reduciendo el tiempo de deposición.</span><a class="headerlink" href="#sput" title="Permalink to this image">¶</a></p>
+</div>
+<table class="table" id="parampy">
+<caption><span class="caption-number">Table 2 </span><span class="caption-text">Parámetros de <em>sputtering</em> de permalloy</span><a class="headerlink" href="#parampy" title="Permalink to this table">¶</a></caption>
+<colgroup>
+<col style="width: 13%" />
+<col style="width: 13%" />
+<col style="width: 13%" />
+<col style="width: 13%" />
+<col style="width: 13%" />
+<col style="width: 13%" />
+<col style="width: 13%" />
+<col style="width: 13%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p><span class="math notranslate nohighlight">\(\text{Flujo}_{\text{Ar}} \; (\text{sccm})\)</span></p></th>
+<th class="head"><p><span class="math notranslate nohighlight">\(p_{\text{Ar}} \; (\mu\text{bar})\)</span></p></th>
+<th class="head"><p><span class="math notranslate nohighlight">\(P \; (\text{W})\)</span></p></th>
+<th class="head"><p><span class="math notranslate nohighlight">\(\Delta V \; (\text{V})\)</span></p></th>
+<th class="head"><p><span class="math notranslate nohighlight">\(I \; (\text{A})\)</span></p></th>
+<th class="head"><p><span class="math notranslate nohighlight">\(\text{Esp.} \; (\text{nm})\)</span></p></th>
+<th class="head"><p><span class="math notranslate nohighlight">\(t_{\text{pre}} \; (\text{min})\)</span></p></th>
+<th class="head"><p><span class="math notranslate nohighlight">\(t_{\text{sp}} \; (\text{min})\)</span></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><span class="math notranslate nohighlight">\(11\)</span></p></td>
+<td><p><span class="math notranslate nohighlight">\(2,8\)</span></p></td>
+<td><p><span class="math notranslate nohighlight">\(110\)</span></p></td>
+<td><p><span class="math notranslate nohighlight">\(396\)</span></p></td>
+<td><p><span class="math notranslate nohighlight">\(0,27\)</span></p></td>
+<td><p><span class="math notranslate nohighlight">\(100\)</span></p></td>
+<td><p><span class="math notranslate nohighlight">\(3\)</span></p></td>
+<td><p><span class="math notranslate nohighlight">\(6\)</span></p></td>
+</tr>
+</tbody>
+</table>
+<p>El esquema del proceso de deposición ha sido representado en la figura <a class="reference internal" href="#sput"><span class="std std-ref">19</span></a>. En la tabla <a class="reference internal" href="#parampy"><span class="std std-ref">2</span></a> se han recogido los siguientes valores: flujo y presión del argón <span class="math notranslate nohighlight">\((\text{Flujo} _ {\text{Ar}}\)</span> y <span class="math notranslate nohighlight">\(p_{\text{Ar}})\)</span>, potencia <span class="math notranslate nohighlight">\((P)\)</span>, diferencia de potencial <span class="math notranslate nohighlight">\((\Delta V)\)</span>, corriente <span class="math notranslate nohighlight">\((I)\)</span>, espesor de la capa <span class="math notranslate nohighlight">\((\text{Esp.})\)</span>, tiempo de <em>pre-sputtering</em> <span class="math notranslate nohighlight">\((t_{\text{pre}})\)</span> y tiempo de <em>sputtering</em> <span class="math notranslate nohighlight">\((t_{\text{sp}})\)</span>.</p>
+<p>El sustrato se colocará en un soporte especial, el cual permitirá definir la imanación del sensor en el sentido perpendicular al eje largo (figuras  \ref{magsop} y \ref{sensorfield}), aplicando un campo magnético de <span class="math notranslate nohighlight">\(250 \; \mathrm{Oe}\)</span>. De esta forma, se propiciará la detección del cambio de la magnetorresistencia (sección \ref{medidas}). Seguidamente, se introducirá en el lugar correspondiente de la cámara (figura <a class="reference internal" href="#inside"><span class="std std-ref">20</span></a>).</p>
+<div class="figure align-default" id="inside">
+<a class="reference internal image-reference" href="_images/inside.PNG"><img alt="_images/inside.PNG" src="_images/inside.PNG" style="height: 300px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 20 </span><span class="caption-text">Interior de la cámara</span><a class="headerlink" href="#inside" title="Permalink to this image">¶</a></p>
+</div>
+<p>En primer lugar, se debe <strong>generar vacío</strong> en el interior de la cámara por medio de dos bombas. La bomba auxiliar rotatoria servirá como apoyo inicial para la bomba turbo molecular, la cual, más lentamente, logrará llegar hasta  <span class="math notranslate nohighlight">\(1,6\times10^{-6} \; \text{mbar}\)</span> (alto vacío).</p>
+<p>A continuación, se deberá suministrar gas de argón (<em>sputtering gas</em>) a una presión de <span class="math notranslate nohighlight">\(2,8 \times 10^{-3} \; \text{mbar}\)</span>, y se establecerá una potencia de <span class="math notranslate nohighlight">\(110 \; \text{W}\)</span> mediante una fuente de corriente continua para <strong>generar el plasma</strong> dentro del campo magnético creado por los magnetrones <span class="math notranslate nohighlight">\((\approx 0,3 \; \text{T})\)</span>. Este campo confinará los electrones presentes en el gas de argón cerca del blanco de permalloy. La diferencia de potencial entre el ánodo y el cátodo acelerará dichos electrones, y éstos colisionarán con los átomos de argón más próximos. La repulsión electrostática causará la ionización de estos últimos. De esta forma, los iones de argón  <span class="math notranslate nohighlight">\((\text{Ar}^{+})\)</span> serán acelerados e impactarán con gran energía contra la superficie de permalloy, cuyos átomos serán extraídos y adquirirán la suficiente energía cinética para poder alcanzar el sustrato y difundirse en su superficie para hallar la posición de energía mínima, en donde quedarán depositados. Esto favorece la adhesión de la película, y también aumenta su densidad, reduciendo así los defectos.</p>
+<div class="admonition-nota admonition">
+<p class="admonition-title">Nota</p>
+<p>Es típico escoger un gas de <em>sputtering</em> de alto peso molecular para incrementar el número de colisiones. Esto, a la vez, aumenta la tasa de deposición y, por tanto, acorta el proceso.</p>
+</div>
+<p>Llegados a este punto, cabe mencionar que  primeramente se debe realizar una <strong>deposición previa</strong> (<em>pre-sputtering</em>). Este paso es crucial, puesto que la muestra de permalloy contiene una capa inicial de óxido por el efecto de la atmósfera del ambiente, y, si se depositara directamente en el sustrato, ésta se contaminaría de impurezas. El tiempo de <em>pre-sputtering</em> ha sido de <span class="math notranslate nohighlight">\(3\)</span> minutos. A continuación, se dará paso al propio <em>sputtering</em>, el cual requerirá alrededor de <span class="math notranslate nohighlight">\(6\)</span> minutos para conseguir la capa de permalloy de <span class="math notranslate nohighlight">\(100 \; \text{nm}\)</span> deseada. En la figura <a class="reference internal" href="#pylayer"><span class="std std-ref">21</span></a> se puede observar la película de permalloy en la superficie. Como se ha comprobado después, el material depositado ha sido de mala calidad, lo cual ha repercutido en los resultados de las medidas (sección \ref{medidas}).</p>
+<div class="figure align-default" id="pylayer">
+<a class="reference internal image-reference" href="_images/pylayer.PNG"><img alt="_images/pylayer.PNG" src="_images/pylayer.PNG" style="height: 300px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 21 </span><span class="caption-text">El sustrato en el soporte especial. La flecha roja define la dirección de imanación.</span><a class="headerlink" href="#pylayer" title="Permalink to this image">¶</a></p>
+</div>
+<p>Tras la finalización del proceso de deposición, se llevará a cabo el <em><strong>lift-off</strong></em> de la capa de permalloy y la  eliminación de la resina bajo ella. El vidrio se sumergirá en acetona dentro de un vaso de precipitado cubierto con <em>parafilm</em> (para evitar la evaporación de la acetona), durante <span class="math notranslate nohighlight">\(30\)</span> minutos. La capa de resina debe quedar completamente retirada. Un baño en ultrasonidos puede resultar útil para este efecto. Acto seguido, se someterá a un baño en isopropanol de <span class="math notranslate nohighlight">\(2\)</span> minutos. Finalmente, se secarán los restos con la pistola de nitrógeno. De esta manera, el permalloy habrá quedado depositado únicamente en los patrones correspondientes al sensor y a las cruces. Acto seguido, se analizarán los resultados.</p>
+</div>
+<div class="section" id="resultados-tras-deposicion-de-permalloy">
+<span id="resultpy"></span><h2><strong>6.6</strong> Resultados tras deposición de permalloy<a class="headerlink" href="#resultados-tras-deposicion-de-permalloy" title="Permalink to this headline">¶</a></h2>
+<div class="figure align-default" id="pycrosses">
+<a class="reference internal image-reference" href="_images/crossespy.PNG"><img alt="_images/crossespy.PNG" src="_images/crossespy.PNG" style="height: 300px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 22 </span><span class="caption-text">Las cruces de alineamiento tras la deposición de Py (objetivo <span class="math notranslate nohighlight">\(\times 20\)</span>).</span><a class="headerlink" href="#pycrosses" title="Permalink to this image">¶</a></p>
+</div>
+<div class="figure align-default" id="sensors1">
+<a class="reference internal image-reference" href="_images/2.9s_sensors_2.jpg"><img alt="_images/2.9s_sensors_2.jpg" src="_images/2.9s_sensors_2.jpg" style="height: 100px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 23 </span><span class="caption-text">Objetivo <span class="math notranslate nohighlight">\(\times 20\)</span></span><a class="headerlink" href="#sensors1" title="Permalink to this image">¶</a></p>
+</div>
+<div class="figure align-default" id="sensors2">
+<a class="reference internal image-reference" href="_images/2.9s_sensors_x50.jpg"><img alt="_images/2.9s_sensors_x50.jpg" src="_images/2.9s_sensors_x50.jpg" style="height: 100px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 24 </span><span class="caption-text">Objetivo <span class="math notranslate nohighlight">\(\times 50\)</span></span><a class="headerlink" href="#sensors2" title="Permalink to this image">¶</a></p>
+</div>
+<p>Las imágenes <a class="reference internal" href="#sensors1"><span class="std std-ref">23</span></a> - <a class="reference internal" href="#sensors2"><span class="std std-ref">24</span></a> han sido adquiridas mediante el microscopio del laboratorio de materiales. El contorno de las cruces parece haber salido correctamente. Éstas van a ser determinantes para garantizar la correcta alineación entre sensores y contactos. Por otro lado, mediante este microscopio de mayor resolución también se han tomado imágenes de mayor calidad del sensor de permalloy. En este caso, los bordes no se han definido claramente, lo cual deja en evidencia el límite de la resolución del equipo de fotolitografía. Pese a ello, los elementos constituyentes del sensor se observan bien alineados y espaciados, y el material se ha depositado adecuadamente en su interior. Por consiguiente, podrán desarrollar su función debidamente.</p>
+</div>
+</div>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+            
+                <!-- Previous / next buttons -->
+<div class='prev-next-area'> 
+    <a class='left-prev' id="prev-link" href="procedimiento.html" title="previous page">
+        <i class="fas fa-angle-left"></i>
+        <div class="prev-next-info">
+            <p class="prev-next-subtitle">previous</p>
+            <p class="prev-next-title"><strong>5</strong>. Procedimiento general de fotolitografía</p>
+        </div>
+    </a>
+    <a class='right-next' id="next-link" href="capa2_contacts.html" title="next page">
+    <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title"><strong>7</strong>. <strong>Segunda fotolitografía</strong>: CONTACTOS DEL SENSOR</p>
+    </div>
+    <i class="fas fa-angle-right"></i>
+    </a>
+</div>
+            
+        </div>
+    </div>
+    <footer class="footer">
+  <p>
+    
+      By Mikel Garitano Telleria<br/>
+    
+        &copy; Copyright 2021.<br/>
+  </p>
+</footer>
+</main>
+
+
+      </div>
+    </div>
+  
+  <script src="_static/js/index.be7d3bbb2ef33a8344ce.js"></script>
+
+  </body>
+</html>

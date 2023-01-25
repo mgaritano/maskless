@@ -1,0 +1,17 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: intro
+chapters:
+- file: sala
+- file: diseño
+- file: equipo
+- file: procedimiento
+- file: capa1_sensors
+- file: capa2_contacts
+- file: extcontacts
+- file: mediciones
+- file: complicaciones
+- file: conclusiones
+- file: referencias
