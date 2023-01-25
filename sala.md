@@ -7,7 +7,7 @@ Este espacio está especialmente construido con el fin de garantizar un ambiente
  La sala blanca se debe iluminar con __luz amarilla__ en todo momento, puesto que la resina es sensible a la longitud de onda de la luz blanca, pudiendo ésta llegar a procesarla e inhabilitarla.
 ```
 
-La clase de sala se estipula de acuerdo al grado de limpieza, atendiendo al número máximo de partículas por metro cúbico ($n_{\text{max}}$) de un tamaño igual o superior a $0,5 \; \mu\mathrm{m}$ {cite}`cleanroom` (obsérvese la tabla [1](table1)).
+La clase de sala se estipula de acuerdo al grado de limpieza, atendiendo al número máximo de partículas por metro cúbico ($n_{\text{max}}$) de un tamaño igual o superior a $0,5 \; \mathrm{μm}$ {cite}`cleanroom` (obsérvese la tabla [1](table1)).
 
 ```{list-table} Clasificación de salas blancas. A las instalaciones de la facultad se les ha asignado el grado D.
 :header-rows: 1

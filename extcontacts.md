@@ -1,6 +1,6 @@
 (extcontacts)=
 # **8**. __Tercera fotolitografía__: CONTACTOS EXTERNOS
-Las dimensiones de los  contactos depositados en la segunda capa son demasiado reducidas, por lo que resultaría muy complicado conectar una muestra con un equipo externo sin dañar las estructuras. Con el fin de  solucionar lo anterior, se depositarán contactos suplementarios de un tamaño considerablemente mayor $(1750 \times 2000 \; \mathrm{\mu m})$ mediante un tercer paso de fotolitografía, de tal manera que puedan apreciarse a simple vista y asistan al usuario en las conexiones con el equipo de mediciones. Éstos deberán sobreponerse ligeramente a los contactos de la segunda capa (figura [37](bigcontacts) para posibilitar la transmisión de la corriente eléctrica.
+Las dimensiones de los  contactos depositados en la segunda capa son demasiado reducidas, por lo que resultaría muy complicado conectar una muestra con un equipo externo sin dañar las estructuras. Con el fin de  solucionar lo anterior, se depositarán contactos suplementarios de un tamaño considerablemente mayor $(1750 \times 2000 \; \mathrm{μm})$ mediante un tercer paso de fotolitografía, de tal manera que puedan apreciarse a simple vista y asistan al usuario en las conexiones con el equipo de mediciones. Éstos deberán sobreponerse ligeramente a los contactos de la segunda capa (figura [37](bigcontacts) para posibilitar la transmisión de la corriente eléctrica.
 
 ```{figure} bigcontacts.PNG
 ---
@@ -49,4 +49,4 @@ name: bigcontactsmicro
 Área de superposición entre contactos (objetivo $\times 20$).
 ```
 
-Llegados a este punto, cabe mencionar que originalmente se iba a efectuar una microsoldadura para unir los contactos interiores con el equipo de mediciones, trazando un hilo de $0,25 \; \mathrm{\mu m}$ de espesor mediante un manipulador micrométrico. No obstante, la máquina destinada para este fin no se encuentra operativa actualmente, por lo que se ha tenido que recurrir  a este procedimiento alternativo.
+Llegados a este punto, cabe mencionar que originalmente se iba a efectuar una microsoldadura para unir los contactos interiores con el equipo de mediciones, trazando un hilo de $0,25 \; \mathrm{μm}$ de espesor mediante un manipulador micrométrico. No obstante, la máquina destinada para este fin no se encuentra operativa actualmente, por lo que se ha tenido que recurrir  a este procedimiento alternativo.
