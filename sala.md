@@ -55,7 +55,7 @@ Microscopio
 
 ```{figure} areas.PNG
 ---
-height: 400px
+height: 450px
 name: cleanroom
 ---
 Áreas de trabajo de la sala blanca, en orden de empleo.
