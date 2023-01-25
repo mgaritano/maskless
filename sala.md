@@ -64,6 +64,6 @@ name: cleanroom
 Para dar fin a esta sección, se puntualizarán aspectos de carácter general que el usuario hará de considerar:
 
 - Para manipular el sustrato (sumergirlo, posicionarlo, etc.) se deberán utilizar pinzas.
-- La superficie del sustrato se secará usando la pistola de N$_2$, aplicando ráfagas continuas hasta la completa remoción de restos líquidos.
+- La superficie del sustrato se secará usando la pistola de $\text{N}_2$, aplicando ráfagas continuas hasta la completa remoción de restos líquidos.
 - El agua empleada en cualquier proceso que así lo requiera debe ser __desionizada__, es decir, agua de la que se han eliminado la mayoría de iones de sales y minerales. Los iones se consideran impurezas, ya que pueden dejar
 residuos en forma de manchas en las superficie de la muestra a tratar.

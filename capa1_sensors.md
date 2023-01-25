@@ -34,7 +34,7 @@ name: spinner
 El vidrio queda sujeto al soporte del _spinner_ mediante vacío. También recibe un flujo de aire comprimido ($\text{N}_2$) para reducir la humedad. Éstos son esenciales para la inicialización y el desarrollo completo de los programas de centrifugado.
 ```
 
-El usuario cerrará la cubierta y se asegurará de que el vacío se está realizando adecuadamente (la pantalla no debe parpadear). Después, seleccionará el programa E, por lo que el sustrato girará a $4000 \; \text{rpm}$ durante $30  \; \text{s}$. Es importante percatarse de que dicho programa consiste de siete fases en total: tres de aceleración, la principal y tres de deceleración. Es decir, la velocidad aumenta y decrece progresivamente (figura [13](spgraph)). Así, se creará una capa de aproximadamente $15 \; \mathrm{nm}$ de espesor. Cuando el HMDS se haya distribuido uniformemente, se depositará la __resina fotosensible__ (con otra pipeta). El _photoresist_ que se emplea es positivo {cite}`resist`. Es conveniente almacenar el bote seguidamente tras su uso, para así evitar el deterioro de la resina debido a la humedad y otros factores. En este caso se seleccionará programa S, el cual hará girar al sustrato a $4000 \; \text{rpm}$ durante $60  \; \text{s}$, adquiriendo de esta forma un espesor de $1 \; \mu\text{m}$, según la hoja de especificaciones.
+El usuario cerrará la cubierta y se asegurará de que el vacío se está realizando adecuadamente (la pantalla no debe parpadear). Después, seleccionará el programa E, por lo que el sustrato girará a $4000 \; \text{rpm}$ durante $30  \; \text{s}$. Es importante percatarse de que dicho programa consiste de siete fases en total: tres de aceleración, la principal y tres de deceleración. Es decir, la velocidad aumenta y decrece progresivamente (figura [13](spgraph)). Así, se creará una capa de aproximadamente $15 \; \mathrm{nm}$ de espesor. Cuando el HMDS se haya distribuido uniformemente, se depositará la __resina fotosensible__ (con otra pipeta). El _photoresist_ que se emplea es positivo {cite}`resist`. Es conveniente almacenar el bote seguidamente tras su uso, para así evitar el deterioro de la resina debido a la humedad y otros factores. En este caso se seleccionará programa S, el cual hará girar al sustrato a $4000 \; \text{rpm}$ durante $60  \; \text{s}$, adquiriendo de esta forma un espesor de $1 \; \mathrm{μm}$, según la hoja de especificaciones.
 
 ```{figure} spinnergraph.PNG
 ---
@@ -48,7 +48,7 @@ Fases de aceleración, principal y deceleración del programa S del spinner, emp
 ## **6.3** Exposición nº 1
 
 A continuación, el sustrato se posicionará en el soporte de la máquina. Se debe procurar que los bordes queden bien alineados (figura [14](soporte)). Hecho esto, los pasos subsiguientes se llevarán a cabo mediante el programa _SFTPrint_. La máscara del sensor se transferirá siguiendo el formato de _stitching_ (figura [15](stitch)), con el objeto de aumentar la resolución.
-En la pantalla principal (sección $(i)$ de la figura [7](smartgen)) se seleccionará el objetivo de mayor aumento ($\times 10$) y sustrato de vidrio. Cabe destacar que las dimensiones del sensor a fabricar se encuentran en el límite de la resolución de la cámara $(2\; \mu\mathrm{m})$.
+En la pantalla principal (sección $(i)$ de la figura [7](smartgen)) se seleccionará el objetivo de mayor aumento ($\times 10$) y sustrato de vidrio. Cabe destacar que las dimensiones del sensor a fabricar se encuentran en el límite de la resolución de la cámara $(2\; \mathrm{μm})$.
 
 ```{figure} objective.jpg
 ---
@@ -124,7 +124,7 @@ Cruz nº 2 de alineación tras la primera exposición.
  No se han incluido imágenes correspondientes a los patrones del sensor tras el revelado, debido a su reducido tamaño. La cámara de la alineadora de la sala blanca (figura [2](cleanroom)(d)) no permite tomar fotos con la suficiente resolución y calidad.
 ```
 
-En figura [18](crossesexp)(a) se puede apreciar claramente que la resina expuesta por la luz ultravioleta no ha sido adecuadamente disuelta y extraída por el revelador, puesto que su interior muestra una tonalidad muy oscura, la cual va disminuyendo en las figuras adyacentes. Esto no es aceptable, pues impediría la correcta deposición del material. Solamente deben quedar marcados los bordes de los patrones. El fenómeno mencionado se puede deber a varios factores:
+En figura [18](crossesexp)a se puede apreciar claramente que la resina expuesta por la luz ultravioleta no ha sido adecuadamente disuelta y extraída por el revelador, puesto que su interior muestra una tonalidad muy oscura, la cual va disminuyendo en las figuras adyacentes. Esto no es aceptable, pues impediría la correcta deposición del material. Solamente deben quedar marcados los bordes de los patrones. El fenómeno mencionado se puede deber a varios factores:
 
 _Un recocido insuficiente_
 : Este factor se descarta, puesto que otras cruces del mismo sustrato han salido claramente definidas.
@@ -178,7 +178,7 @@ Proceso esquematizado del _sputtering_ magnetrón. Los iones de argón impactan 
 
 El esquema del proceso de deposición ha sido representado en la figura [19](sput). En la tabla [2](parampy) se han recogido los siguientes valores: flujo y presión del argón $(\text{Flujo} _ {\text{Ar}}$ y $p_{\text{Ar}})$, potencia $(P)$, diferencia de potencial $(\Delta V)$, corriente $(I)$, espesor de la capa $(\text{Esp.})$, tiempo de _pre-sputtering_ $(t_{\text{pre}})$ y tiempo de _sputtering_ $(t_{\text{sp}})$.
 
-El sustrato se colocará en un soporte especial, el cual permitirá definir la imanación del sensor en el sentido perpendicular al eje largo (figuras  \ref{magsop} y \ref{sensorfield}), aplicando un campo magnético de $250 \; \mathrm{Oe}$. De esta forma, se propiciará la detección del cambio de la magnetorresistencia (sección \ref{medidas}). Seguidamente, se introducirá en el lugar correspondiente de la cámara (figura [20](inside)).
+El sustrato se colocará en un soporte especial, el cual permitirá definir la imanación del sensor en el sentido perpendicular al eje largo (figuras  [21](pylayer) y figura [43](sensorfield)), aplicando un campo magnético de $250 \; \mathrm{Oe}$. De esta forma, se propiciará la detección del cambio de la magnetorresistencia. Seguidamente, se introducirá en el lugar correspondiente de la cámara (figura [20](inside)).
 
 ```{figure} inside.PNG
 ---
@@ -196,7 +196,7 @@ A continuación, se deberá suministrar gas de argón (_sputtering gas_) a una p
  Es típico escoger un gas de _sputtering_ de alto peso molecular para incrementar el número de colisiones. Esto, a la vez, aumenta la tasa de deposición y, por tanto, acorta el proceso.
 ```
 
-Llegados a este punto, cabe mencionar que  primeramente se debe realizar una __deposición previa__ (_pre-sputtering_). Este paso es crucial, puesto que la muestra de permalloy contiene una capa inicial de óxido por el efecto de la atmósfera del ambiente, y, si se depositara directamente en el sustrato, ésta se contaminaría de impurezas. El tiempo de _pre-sputtering_ ha sido de $3$ minutos. A continuación, se dará paso al propio _sputtering_, el cual requerirá alrededor de $6$ minutos para conseguir la capa de permalloy de $100 \; \text{nm}$ deseada. En la figura [21](pylayer) se puede observar la película de permalloy en la superficie. Como se ha comprobado después, el material depositado ha sido de mala calidad, lo cual ha repercutido en los resultados de las medidas (sección \ref{medidas}).
+Llegados a este punto, cabe mencionar que  primeramente se debe realizar una __deposición previa__ (_pre-sputtering_). Este paso es crucial, puesto que la muestra de permalloy contiene una capa inicial de óxido por el efecto de la atmósfera del ambiente, y, si se depositara directamente en el sustrato, ésta se contaminaría de impurezas. El tiempo de _pre-sputtering_ ha sido de $3$ minutos. A continuación, se dará paso al propio _sputtering_, el cual requerirá alrededor de $6$ minutos para conseguir la capa de permalloy de $100 \; \text{nm}$ deseada. En la figura [21](pylayer) se puede observar la película de permalloy en la superficie. Como se ha comprobado después, el material depositado ha sido de mala calidad, lo cual ha repercutido en los resultados de las medidas (sección [9](medidas)).
 
 ```{figure} pylayer.PNG
 ---
