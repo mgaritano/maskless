@@ -28,7 +28,7 @@ name: stitchcontacts
 ---
 Pasos del _Semi-automatic alignment mode_: __1.__ Calibrar la cámara ;  __2.__ Escoger el punto del sustrato a vista de cámara ($P_{1}^\prime$: centro de la cruz 1) ;  __3.__ Escoger el punto a alinear con $P_{1}^\prime$ a vista del dibujo ($P_{1}$: centro de la cruz 1 de la segunda capa). ;  __4.__ (Paso opcional) Escoger otro punto del dibujo ($P_{2}$: centro de la cruz 2 del dibujo) ;  __5.__ Verificar el alineamiento.
 ```
-A continuación, se procederá al __alineamiento entre capas__. Primeramente, se activará el microscopio de la máquina (_Microscope Mode_). Así, haciendo mover el soporte, se hallarán las cruces de la exposición número 1 con el permalloy depositado para comenzar con el alineamiento. En la figura \ref{almode} se explica el proceso del alineamiento en modo semi-automático. Este paso requiere gran minuciosidad debido a las limitaciones de la cámara de la máquina. Al aumentar la imagen, ésta pierde calidad, por lo que resulta complicado acertar en el centro de las cruces de alineación. Además, la distancia de superposición entre sensor y contacto es de tan solo $2 \; \mu\text{m}$, por lo que un ínfimo desvío acarrearía un alineamiento inadecuado, tanto en horizontal como en vertical (obsérvese con detenimiento la figura \ref{contacts1.8s}).
+A continuación, se procederá al __alineamiento entre capas__. Primeramente, se activará el microscopio de la máquina (_Microscope Mode_). Así, haciendo mover el soporte, se hallarán las cruces de la exposición número 1 con el permalloy depositado para comenzar con el alineamiento. En la figura [27](stitchcontacts) se explica el proceso del alineamiento en modo semi-automático. Este paso requiere gran minuciosidad debido a las limitaciones de la cámara de la máquina. Al aumentar la imagen, ésta pierde calidad, por lo que resulta complicado acertar en el centro de las cruces de alineación. Además, la distancia de superposición entre sensor y contacto es de tan solo $2 \; \mathrm{\mu m}$, por lo que un ínfimo desvío acarrearía un alineamiento inadecuado, tanto en horizontal como en vertical (obsérvese con detenimiento la figura [30](cgood1)).
 
 ## **7.2** __Exposición nº 2__
 
@@ -91,7 +91,7 @@ $$
 
 Se llevarán a cabo dos procesos de _sputtering_, teniendo en cuenta el procedimiento explicado previamente. Sin embargo, esta vez no será necesario definir la imanación del material, luego se empleará un soporte convencional para el sustrato.
 
-Primero, se depositará una capa de 8 nm de __titanio__, puesto que la adhesión del oro al vidrio es débil. Seguidamente, se creará la capa de __oro__ de 100 nm perteneciente a  los contactos. Los respectivos parámetros se recogen en la tabla [3](paramau).
+Primero, se depositará una capa de $8 \; \text{nm}$ de __titanio__, puesto que la adhesión del oro al vidrio es débil. Seguidamente, se creará la capa de __oro__ de $100 \; \text{nm}$ perteneciente a  los contactos. Los respectivos parámetros se recogen en la tabla [3](paramau).
 
 ```{list-table} Parámetros de _sputtering_ de Ti (primera fila) y Au (segunda fila).
 :header-rows: 1
