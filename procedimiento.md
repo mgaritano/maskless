@@ -24,7 +24,7 @@ __3. REVELADO__
 $$\\$$
 
 __4. DEPOSICIÓN__
-: Un proceso de _sputtering_ realiza la deposición del material, creando una fina película sobre la  superficie. Para más detalles, ver la figura \ref{sputtering}.
+: Un proceso de _sputtering_ realiza la deposición del material, creando una fina película sobre la  superficie. Para más detalles, ver la figura [19](sput).
 
 $$\\$$
 
