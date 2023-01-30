@@ -102,7 +102,7 @@ Observando las especificaciones introducidas, se efectuarán tres exposiciones e
 $$1,5 \; \mathrm{s} \; \rightarrow \; 2,1 \; \mathrm{s} \; \rightarrow \; 2,7 \; \mathrm{s} \;.$$
 
 ```{admonition} Nota
- Los datos corresponden a la sesión del 28 de febrero de 2022. En sesiones posteriores se han requerido mayores tiempos de exposición para obtener resultados deseables. Ver sección ... .
+ Los datos corresponden a la sesión del 28 de febrero de 2022. En sesiones posteriores se han requerido mayores tiempos de exposición para obtener resultados deseables. Ver sección [10](problems).
 ```
 
 Antes de comenzar, el usuario deberá colocarse las gafas protectoras, y no deberá quitárselas hasta la culminación del proceso. Además, deberá retirar el filtro protector de luz azul de la máquina. Mientras dura la exposición, observará los resultados a vista de cámara en la pantalla del programa. Al finalizar, volverá a colocar el filtro.

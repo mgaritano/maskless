@@ -42,7 +42,7 @@ El autor en la sala blanca.
 En la figura [2](cleanroom) se recogen los cuatro espacios de trabajo de esta sala:
 
 Área de limpieza
-: La zona en la que se realiza la limpieza inicial del sustrato, así como los proceso de revelado y _lift off_.
+: La zona en la que se realiza la limpieza inicial del sustrato, así como los procesos de revelado y _lift off_.
 
 _Spinner_ y placas calefactoras
 : Espacio en el que se deposita la capa de resina en la superficie.
