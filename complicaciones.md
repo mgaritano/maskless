@@ -7,7 +7,7 @@ __1. Inconsistencia en la dosis adecuada__: A medida que aumenta el uso de la m�
 
 En cualquier caso, no se descarta que dicho incremento se pudiera deber a alteraciones en las propiedades la resina fotosensible, a causa de factores ambientales como la humedad o la exposici처n a la luz blanca.
 
-```{list-table} Variaci처n de la dosis de la primera capa.
+```{list-table} Variaci처n de la dosis de la primera capa (sensor).
 :header-rows: 1
 :name: table4
 
@@ -28,7 +28,7 @@ En cualquier caso, no se descarta que dicho incremento se pudiera deber a altera
   - $90$
 ```
 
-```{list-table} Variaci처n de la dosis de la segunda capa.
+```{list-table} Variaci처n de la dosis de la segunda capa (contactos).
 :header-rows: 1
 :name: table5
 
